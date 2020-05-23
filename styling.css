@@ -7,6 +7,7 @@
     padding: 10px;
     font-family: 'Source Sans Pro' , sans-serif;
     font-size: 40px;
+    transition-duration: 0.5s;
 }
 
 html{
@@ -24,7 +25,18 @@ body{
 
 }
 
+button{
 
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+
+    background: #3A75AC;
+    color:white;
+
+}
 .headtext{
 
     font-size: 30px;
@@ -41,10 +53,13 @@ body{
 #navbar{
 
     background: white;
-    display: grid;
+    /* display: grid;
     grid-template-rows: 40px;
-    grid-template-columns: 30% 10% 8% 5% 7% 4% 4% auto;
+    grid-template-columns: 30% 10% 8% 5% 7% 4% 4% auto; */
     font-family: 'Source Sans Pro' , sans-serif;
+    height: 40px;
+    text-align: center;
+
 }
 
 #newc{
@@ -55,13 +70,21 @@ body{
     border: 0px;
     font-size: 15px;
     font-weight: 700;
+    height: 100%;
 }
 
+#newc:hover{
+
+    color: white;
+    background : #3A75AC; 
+}
 #result{
 
+    display: inline-block;
     color: black;
    align-self: center;
-
+   transition-duration: 0.5s;
+    width: 20%;
 }
 
 .modes{
@@ -71,6 +94,7 @@ body{
     background: white;
     font-size: 15px;
     font-weight: 700;
+    height: 100%;
 
 }   
 
@@ -79,7 +103,7 @@ body{
     border-radius: 10px;
     border-color: transparent;
     margin: 5px;
-
+    transition-duration: 0.5s;
   
 }
 
