@@ -1,0 +1,107 @@
+#heading{
+
+    background: #3A75AC;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 40px;
+}
+
+html{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background: rgb(20, 20, 20);
+
+}
+
+
+.headtext{
+
+    font-size: 30px;
+}
+
+#choice{
+
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+#navbar{
+
+    background: white;
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 30% 10% 8% 5% 7% 4% 4% auto;
+    font-family: 'Source Sans Pro' , sans-serif;
+}
+
+#newc{
+
+    text-transform: uppercase;
+    color: #3A75AC;
+    background: white;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#result{
+
+    color: black;
+   align-self: center;
+
+}
+
+.modes{
+
+    border: 0px;
+    color: #3A75AC;
+    background: white;
+    font-size: 15px;
+    font-weight: 700;
+
+}   
+
+.boxc{
+
+    border-radius: 10px;
+    border-color: transparent;
+    margin: 5px;
+
+  
+}
+
+ #colours{
+
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+    margin-top: 20px;
+} 
+
+.clicked{
+
+    border: transparent;
+    background: #3A75AC;
+    color: white;
+
+}
+
+.color-clicked{
+
+    background-color:black;
+
+}
